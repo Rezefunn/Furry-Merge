@@ -1376,6 +1376,7 @@ GameObject:
   - component: {fileID: 585700281}
   - component: {fileID: 585700280}
   - component: {fileID: 585700279}
+  - component: {fileID: 585700283}
   m_Layer: 0
   m_Name: SFXManager
   m_TagString: Untagged
@@ -1607,6 +1608,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &585700283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585700278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4338f183e4957be4b940f31c10fbf30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouse: {fileID: 1984832609714012173, guid: c98aa68f1a9630f4f9767bff68859500, type: 3}
+  rabbit: {fileID: 4170886277897904302, guid: 9ebaa3569e994374682e8e48b3c2947e, type: 3}
+  sheep: {fileID: 7105866809583854191, guid: a060d1bdba5fcd34fbd794fcb2d8cab9, type: 3}
+  dog: {fileID: 7475320461710312957, guid: eb4cc0d0164f40d43ab3c7f8ba1fe798, type: 3}
+  tiger: {fileID: 1522506513300827072, guid: c44ceeda6e818de479410b54fe354e90, type: 3}
+  loong: {fileID: 6926210821113181044, guid: c7a72378ae368f342b29f58857aaf064, type: 3}
+  mouseNext: {fileID: 1984832611113068553}
+  rabbitNext: {fileID: 4170886277122187542}
+  sheepNext: {fileID: 7105866807857567636}
+  nextAnimal: 0
 --- !u!1 &593790670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,15 +3719,6 @@ MonoBehaviour:
   hitLayer:
     serializedVersion: 2
     m_Bits: 64
-  mouse: {fileID: 1984832609714012173, guid: c98aa68f1a9630f4f9767bff68859500, type: 3}
-  rabbit: {fileID: 4170886277897904302, guid: 9ebaa3569e994374682e8e48b3c2947e, type: 3}
-  sheep: {fileID: 7105866809583854191, guid: a060d1bdba5fcd34fbd794fcb2d8cab9, type: 3}
-  dog: {fileID: 7475320461710312957, guid: eb4cc0d0164f40d43ab3c7f8ba1fe798, type: 3}
-  tiger: {fileID: 1522506513300827072, guid: c44ceeda6e818de479410b54fe354e90, type: 3}
-  loong: {fileID: 6926210821113181044, guid: c7a72378ae368f342b29f58857aaf064, type: 3}
-  mouseNext: {fileID: 1984832611113068553}
-  rabbitNext: {fileID: 4170886277122187542}
-  sheepNext: {fileID: 7105866807857567636}
   shootPower: 20
 --- !u!1 &2043175346
 GameObject:

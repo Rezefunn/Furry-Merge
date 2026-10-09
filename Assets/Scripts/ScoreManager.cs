@@ -47,7 +47,7 @@ public class ScoreManager : MonoBehaviour
             File.WriteAllText(uuidFilePath, playerUUID);
         }
 #else
-        // PC ªÚ Editor ≤‚ ‘”√
+        // PC ªÚ Editor ≤‚ ‘
         playerUUID = PlayerPrefs.GetString("playerUUID", Guid.NewGuid().ToString());
         PlayerPrefs.SetString("playerUUID", playerUUID);
 #endif
